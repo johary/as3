@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.3.11)
+      aws-sdk-resources (= 2.3.11)
+    aws-sdk-core (2.3.11)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.3.11)
+      aws-sdk-core (= 2.3.11)
+    filesize (0.1.1)
+    jmespath (1.2.4)
+      json_pure (>= 1.8.1)
+    json_pure (1.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk (~> 2)
+  filesize (~> 0.1.1)
+
+BUNDLED WITH
+   1.10.6
