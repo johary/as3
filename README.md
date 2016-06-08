@@ -22,7 +22,9 @@ Default credentials are loaded automatically from the following locations:
 
 > - **Aws.config[:credentials]**
 > - The shared credentials ini file at ** ~/.aws/credentials**
+
 ##### Credentials format:
+
 >[default]
 aws_access_key_id = ACCESS_KEY
 aws_secret_access_key = SECRET_KEY
