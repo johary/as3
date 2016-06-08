@@ -23,7 +23,8 @@ aws_session_token = TOKEN
 
 
 
-####  Region
+Region
+----------
 
 You can configure a default region in the following locations:
 
@@ -53,12 +54,16 @@ Usage
 > **Options:**
 > ***-s NAME, --size NAME***
 >  "specify the file format size, e.g. KB MB GB..."
+
 > ***--group***
 >  "group by storage type, e.g. STANDARD,STANDARD_IA,REDUCED_REDUNDANCY"
+
 >  ***-a, --all***
 >  "output additionnal information"
+
 >  ***-r, --region***
 >  "group buckets by region"
+
 >  ***-f REGEXP, --filter REGEXP***
 >  "filter buckets by REGEXP"
 
