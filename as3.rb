@@ -296,14 +296,8 @@ case operation
     puts "Unknown operation: '%s'!" % operation
     puts USAGE
 end
+
 # TODO
-# The tool must returns the following informations:
-#
-# The following options should be supported:
-#
-
-# Filter the results in a list of buckets (bonus point for regex support)
-
 # Some additional features that could be useful (optional)
 #
 # It would be nice to support prefix in the bucket filter (e.g.: s3://mybucket/Folder/SubFolder/log*). It may also be useful to organize the results according to the encryption type, get additional buckets informations (life cycle, cross-region replication, etc.) or take into account the previous file versions in the count + size calculation.
