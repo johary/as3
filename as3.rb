@@ -17,7 +17,6 @@ Where:
   operation:
               list     - list all buckets
               create   - create a new bucket
-              delete   - delete a bucket
               upload   - upload file to a bucket
               items    - list bucket items
 
@@ -42,7 +41,6 @@ OptionParser.new do |opts|
   operation:
               list     - list all buckets
               create   - create a new bucket
-              delete   - delete a bucket
               upload   - upload file to a bucket
               items    - list bucket items
 
